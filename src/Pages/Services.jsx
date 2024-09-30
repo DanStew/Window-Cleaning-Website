@@ -1,7 +1,13 @@
+import Navigator from "../Components/Navigator"
+import TopBanner from "../Components/TopBanner"
+
 function Services(){
     return(
         <div>
-            Services
+            <div className="header">
+                <TopBanner />
+                <Navigator />
+            </div>
         </div>
     )
 }

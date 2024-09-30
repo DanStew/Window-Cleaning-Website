@@ -6,6 +6,9 @@ import Home from "./Pages/Home";
 import Services from "./Pages/Services";
 import Contact from "./Pages/Contact";
 
+//Importing the stylesheet
+import "./style.scss"
+
 function App() {
   return (
     <div className="App">
