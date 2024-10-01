@@ -15,26 +15,6 @@ p {
   font-family: "Roboto", serif;
   font-weight: 600;
   text-align: center;
-
-  &.normal {
-    font-size: 20px;
-    font-weight: 500;
-  }
-  &.boldNormal {
-    font-size: 20px;
-  }
-  &.smallSubheading {
-    font-size: 28px;
-  }
-  &.subheading {
-    font-size: 32px;
-  }
-  &.heading {
-    font-size: 60px;
-  }
-  &.title {
-    font-size: 70px;
-  }
 }
 
 //Making the flex display basics
@@ -61,7 +41,7 @@ p {
     gap: 20px;
   }
   &.heightGap{
-    gap: 5vh;
+    gap: 4vh;
   }
 }
 
@@ -88,6 +68,81 @@ button{
 //Class used to hide elements when they are not active
 .notActive{display:none;}
 
+//Implemented the needed media queries
+@media screen and (min-width : 1400px) {
+  .verticalNavigator{display: none}
+
+  //Styling the font styles
+  p{
+    //Classes to determine the font size and weight of fonts
+    &.regular{font-size: 20px;font-weight: 500;}
+    &.boldRegular{font-size: 20px;}
+    &.smallSubheading{font-size: 24px;}
+    &.subheading{font-size: 32px;}
+    &.heading{font-size: 60px;}
+    &.title{font-size: 68px;}
+  }
+}
+
+@media screen and (min-width : 1080px) and (max-width : 1400px) {
+  .verticalNavigator{display: none}
+
+  //Styling the font styles
+  p{
+    //Classes to determine the font size and weight of fonts
+    &.regular{font-size: 18px;font-weight: 500;}
+    &.boldRegular{font-size: 18px;}
+    &.smallSubheading{font-size: 24px;}
+    &.subheading{font-size: 26px;}
+    &.heading{font-size: 56px;}
+    &.title{font-size: 64px;}
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width : 1080px) {
+  .verticalNavigator{display: none}
+
+  //Styling the font styles
+  p{
+    //Classes to determine the font size and weight of fonts
+    &.regular{font-size: 12px;font-weight: 500;}
+    &.boldRegular{font-size: 12px;}
+    &.smallSubheading{font-size: 16px;}
+    &.subheading{font-size: 20px;}
+    &.heading{font-size: 50px;}
+    &.title{font-size: 56px;}
+  }
+}
+
+@media screen and (min-width:560px) and (max-width : 800px) {
+  .horizontalNavigator{display: none}
+
+  //Styling the font styles
+  p{
+    //Classes to determine the font size and weight of fonts
+    &.regular{font-size: 10px;font-weight: 500;}
+    &.boldRegular{font-size: 10px;}
+    &.smallSubheading{font-size: 14px;}
+    &.subheading{font-size: 18px;}
+    &.heading{font-size: 46px;}
+    &.title{font-size: 50px;}
+  }
+}
+
+@media screen and (max-width:560px){
+  .horizontalNavigator{display: none}
+
+  //Styling the font styles
+  p{
+    //Classes to determine the font size and weight of fonts
+    &.regular{font-size: 10px;font-weight: 500;}
+    &.boldRegular{font-size: 10px;}
+    &.smallSubheading{font-size: 14px;}
+    &.subheading{font-size: 18px;}
+    &.heading{font-size: 40px;}
+    &.title{font-size: 46px;}
+  }
+}
 //Styling the header for the website
 .TopBanner {
   color: white;
@@ -105,9 +160,9 @@ button{
   position: relative;
   top: 7vh;
   left: 0;
-  z-index: 2;
+  z-index: 100;
   
-  div {
+  .navItem{
       padding: 10px;
       cursor: pointer;
       background-color: rgb(160, 160, 160);
@@ -122,6 +177,8 @@ button{
       background-color: rgb(201, 201, 201);
     }
   }
+
+  #menuSpan{text-align: center; font-size: 4vh; padding: 6px;}
 }
 
 //Styling the home page

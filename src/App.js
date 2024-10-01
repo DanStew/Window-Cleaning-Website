@@ -5,6 +5,7 @@ import { Route,Routes,BrowserRouter as Router } from "react-router-dom";
 import Home from "./Pages/Home";
 import Services from "./Pages/Services";
 import Contact from "./Pages/Contact";
+import Reviews from "./Pages/Reviews";
 
 //Importing the stylesheet
 import "./style.scss"
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Services" element={<Services />} />
+            <Route path="/Reviews" element={<Reviews />} />
             <Route path="/Contact" element={<Contact />} />
           </Routes>
       </Router>
