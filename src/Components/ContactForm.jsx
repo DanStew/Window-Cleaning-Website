@@ -1,6 +1,7 @@
 import { useState } from "react"
+import { closeContactForm } from "../Functions/contactFormFunctions"
 
-function ContactForm({closeContactForm}){
+function ContactForm(){
 
     const [name,setName] = useState("")
     const [email,setEmail] = useState("")

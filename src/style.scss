@@ -143,6 +143,12 @@ button{
     &.title{font-size: 46px;}
   }
 }
+
+//Creating some styling for the background of areas
+//This is to change up the colors of the website, so they aren't always the same
+.odd{background-color: rgb(166, 166, 166);}
+.even{background-color: black; color:white;}
+
 //Styling the header for the website
 .TopBanner {
   color: white;
@@ -160,7 +166,7 @@ button{
   position: relative;
   top: 7vh;
   left: 0;
-  z-index: 100;
+  z-index: 90;
   
   .navItem{
       padding: 10px;
@@ -184,9 +190,7 @@ button{
 //Styling the home page
 .Home{
     .welcome{
-        position: absolute;
-        top: 10vh;
-        left: 0;
+        margin-top: 5vh;
 
         .backgroundImg{
             position: relative;
@@ -197,7 +201,7 @@ button{
             img{
                 object-fit: cover;
                 width: 100vw;
-                height: 80vh;
+                height: 70vh;
             }
         }
 
@@ -216,7 +220,12 @@ button{
         }
     }
 
-    .test{height: 300vh;}
+    .WhatIsUs{
+      margin: -1%;
+      padding: 2%;
+
+      .mainText{width:90%; text-align: left;}
+    }
 }
 
 //Creating the contact button, to open the contact menu
