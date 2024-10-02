@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   height: 100%;
-  background-color: rgb(160, 160, 160);
+  background-color: rgb(166, 166, 166);
 }
 
 //Styling p's
@@ -51,11 +51,40 @@ button{
     border-radius: 25px;
     background-color: rgb(225, 225, 225);
     cursor: pointer;
+    padding: 10px;
 
     &.welcomeButton{
         width: 30%;
         padding: 20px;
     }
+}
+
+//Styling the forms on the website
+form{
+  padding: 2vh;
+  width: 80vw;
+  margin-left: 10vw;
+
+  input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2vh;
+    font-size: 32px;
+  }
+
+  textArea{
+    width: 100%;
+    max-width: 80vw;
+    min-width: 80vw;
+    min-height: 10vh;
+    padding: 10px;
+    margin-bottom: 2vh;
+    font-size: 24px;
+  }
+
+  button{
+    width: 60%;
+  }
 }
 
 //Ensuring flexItems take up all the space they can
@@ -79,6 +108,7 @@ button{
     &.boldRegular{font-size: 20px;}
     &.smallSubheading{font-size: 24px;}
     &.subheading{font-size: 32px;}
+    &.bigSubheading{font-size: 44px;}
     &.heading{font-size: 60px;}
     &.title{font-size: 68px;}
   }
@@ -94,6 +124,7 @@ button{
     &.boldRegular{font-size: 18px;}
     &.smallSubheading{font-size: 24px;}
     &.subheading{font-size: 26px;}
+    &.bigSubheading{font-size: 38px;}
     &.heading{font-size: 56px;}
     &.title{font-size: 64px;}
   }
@@ -109,6 +140,7 @@ button{
     &.boldRegular{font-size: 12px;}
     &.smallSubheading{font-size: 16px;}
     &.subheading{font-size: 20px;}
+    &.bigSubheading{font-size: 32px;}
     &.heading{font-size: 50px;}
     &.title{font-size: 56px;}
   }
@@ -124,6 +156,7 @@ button{
     &.boldRegular{font-size: 10px;}
     &.smallSubheading{font-size: 14px;}
     &.subheading{font-size: 18px;}
+    &.bigSubheading{font-size: 28px;}
     &.heading{font-size: 46px;}
     &.title{font-size: 50px;}
   }
@@ -139,6 +172,7 @@ button{
     &.boldRegular{font-size: 10px;}
     &.smallSubheading{font-size: 14px;}
     &.subheading{font-size: 18px;}
+    &.bigSubheading{font-size: 26px;}
     &.heading{font-size: 40px;}
     &.title{font-size: 46px;}
   }
@@ -146,8 +180,8 @@ button{
 
 //Creating some styling for the background of areas
 //This is to change up the colors of the website, so they aren't always the same
-.odd{background-color: rgb(166, 166, 166);}
-.even{background-color: black; color:white;}
+.odd{background-color: rgb(58, 58, 58); color:white;}
+.even{background-color: rgb(166, 166, 166);}
 
 //Styling the header for the website
 .TopBanner {
@@ -201,7 +235,7 @@ button{
             img{
                 object-fit: cover;
                 width: 100vw;
-                height: 70vh;
+                height: 75vh;
             }
         }
 
@@ -226,6 +260,40 @@ button{
 
       .mainText{width:90%; text-align: left;}
     }
+}
+
+//Styling the Contact Page of the website
+.contact{
+  .contactUs{
+    padding-top: 8vh;
+
+    .mainText{width:90%;}
+
+    .contactInfo{
+      .contactRow{
+        justify-content: space-between;
+        text-align-last: left;
+        width: 80%;
+        margin-left: 5%;
+      }
+    }
+
+    button{
+      margin-bottom: 4vh;
+      width: 40%;
+      transition: all 1s;
+      img{height:6vh;border-radius: 50%;object-fit: cover;}
+      &:hover{transform: translateY(-2vh);}
+    }
+  }
+
+  .smallContactForm{
+    padding: 1%;
+
+    form{
+      margin-left:0;
+    }
+  }
 }
 
 //Creating the contact button, to open the contact menu
@@ -283,33 +351,6 @@ button{
   .contactFormMessage{
     width: 90vw;
     margin-left: 5vw;
-  }
-
-  .contactFormForm{
-    padding: 2vh;
-    width: 80vw;
-    margin-left: 10vw;
-
-    input{
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 2vh;
-      font-size: 32px;
-    }
-
-    textArea{
-      width: 100%;
-      max-width: 80vw;
-      min-width: 80vw;
-      min-height: 10vh;
-      padding: 10px;
-      margin-bottom: 2vh;
-      font-size: 24px;
-    }
-
-    button{
-      width: 60%;
-    }
   }
 }
 
