@@ -1,4 +1,5 @@
 import facebookLogo from "../Images/facebookLogo.jpg"
+import MapAPIImplementation from "../Functions/MapAPIImplementation"
 
 function ContactUs({order}){
     return(
@@ -14,6 +15,7 @@ function ContactUs({order}){
                     <p className="heading flexItems">Phone Number : </p>
                     <p className="heading flexItems">01252722665</p>
                 </div>
+                <MapAPIImplementation className="map"/>
                 <button onClick={() => window.open("https://www.facebook.com/profile.php?id=100054523986920")} className="flexDisplay smallGap"><img src={facebookLogo} alt="Facebook Logo" /><p className="bigSubheading">View our Facebook</p></button>
             </div>
         </div>
