@@ -69,7 +69,6 @@ form{
     width: 100%;
     padding: 10px;
     margin-bottom: 2vh;
-    font-size: 32px;
   }
 
   textArea{
@@ -79,7 +78,6 @@ form{
     min-height: 10vh;
     padding: 10px;
     margin-bottom: 2vh;
-    font-size: 24px;
   }
 
   button{
@@ -112,6 +110,11 @@ form{
     &.heading{font-size: 60px;}
     &.title{font-size: 68px;}
   }
+
+  //Styling the inputs font size
+  input{font-size: 32px;}
+  textarea{font-size: 24px;}
+  ::placeholder{font-size: 32px;}
 }
 
 @media screen and (min-width : 1080px) and (max-width : 1400px) {
@@ -128,10 +131,16 @@ form{
     &.heading{font-size: 56px;}
     &.title{font-size: 64px;}
   }
+
+  //Styling the inputs font size
+  input{font-size: 30px;}
+  textarea{font-size: 22px;}
+  ::placeholder{font-size: 30px;}
 }
 
 @media screen and (min-width: 800px) and (max-width : 1080px) {
   .verticalNavigator{display: none}
+  .contactRow{flex-direction: column;}
 
   //Styling the font styles
   p{
@@ -141,13 +150,19 @@ form{
     &.smallSubheading{font-size: 16px;}
     &.subheading{font-size: 20px;}
     &.bigSubheading{font-size: 32px;}
-    &.heading{font-size: 50px;}
+    &.heading{font-size: 46px;}
     &.title{font-size: 56px;}
   }
+  
+  //Styling the inputs font size
+  input{font-size: 28px;}
+  textarea{font-size: 20px;}
+  ::placeholder{font-size: 28px;}
 }
 
 @media screen and (min-width:560px) and (max-width : 800px) {
   .horizontalNavigator{display: none}
+  .contactRow{flex-direction: column;}
 
   //Styling the font styles
   p{
@@ -157,13 +172,19 @@ form{
     &.smallSubheading{font-size: 14px;}
     &.subheading{font-size: 18px;}
     &.bigSubheading{font-size: 28px;}
-    &.heading{font-size: 46px;}
+    &.heading{font-size: 40px;}
     &.title{font-size: 50px;}
   }
+
+  //Styling the inputs font size
+  input{font-size: 26px;}
+  textarea{font-size: 18px;}
+  ::placeholder{font-size: 26px;}
 }
 
 @media screen and (max-width:560px){
   .horizontalNavigator{display: none}
+  .contactRow{flex-direction: column;}
 
   //Styling the font styles
   p{
@@ -173,9 +194,14 @@ form{
     &.smallSubheading{font-size: 14px;}
     &.subheading{font-size: 18px;}
     &.bigSubheading{font-size: 26px;}
-    &.heading{font-size: 40px;}
+    &.heading{font-size: 36px;}
     &.title{font-size: 46px;}
   }
+
+  //Styling the inputs font size
+  input{font-size: 24px;}
+  textarea{font-size: 16px;}
+  ::placeholder{font-size: 24px;}
 }
 
 //Creating some styling for the background of areas
