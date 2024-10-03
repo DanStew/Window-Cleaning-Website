@@ -13,7 +13,7 @@
 
 #Hiding API Keys
 /src/Config
-/src/Functions/mapAPIImplementation.jsx
+/src/Functions/MapAPIImplementation.jsx
 
 # misc
 .DS_Store
