@@ -13,7 +13,7 @@ function WelcomePage(){
                 <p className="title">Farnham and District Window Cleaning</p>
                 <p className="heading">A family run window cleaning business established since 1972</p>
                 <p className="heading">Contact us for a free, no obligation quote</p>
-                <button onClick={() => openContactForm()} className="welcomeButton"><p className="subheading flexItems ignoreWidth">Get a Free Quote</p></button>
+                <button onClick={() => openContactForm()} className="welcomeButton"><p className="subheading flexItems ignoreWidth">Get a Free Quote</p></button>            
             </div>
         </div>
     )

@@ -105,7 +105,7 @@ form{
     &.regular{font-size: 20px;font-weight: 500;}
     &.boldRegular{font-size: 20px;}
     &.smallSubheading{font-size: 24px;}
-    &.subheading{font-size: 32px;}
+    &.subheading{font-size: 28px;}
     &.bigSubheading{font-size: 44px;}
     &.heading{font-size: 60px;}
     &.title{font-size: 68px;}
@@ -320,6 +320,37 @@ form{
 
     form{
       margin-left:0;
+    }
+  }
+}
+
+//Styling the reviews page of the website
+.reviews{
+  .mainBody{
+    padding-top: 8vh;
+
+    .headerText{width: 80vw; margin-left: 10vw;}
+  }
+}
+
+//Styling the reviews badge
+.reviewsBadgeArea{
+  width: 100vw;
+  padding: 10px;
+
+  .reviewsBadge{
+    margin: 2vh;
+    min-width: 40vw;
+    min-height: 10vh;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+
+    .reviewsBadgeBottom{
+      padding: 5px;
+      img{height:3vw;}
+      a{text-decoration: none; color: blue;}
     }
   }
 }
