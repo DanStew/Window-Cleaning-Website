@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   scroll-behavior: smooth;
   margin: 0;
@@ -283,9 +287,53 @@ form{
     .WhatIsUs{
       margin: -1%;
       padding: 2%;
+      padding-bottom: 6vh;
 
       .mainText{width:90%; text-align: left;}
+      i{color: rgb(238, 234, 30); cursor: pointer;}
     }
+
+    .customerReviews{
+      padding: 2%;
+      .bigSubheading{width:80%;}
+      a{color: blue;cursor: pointer;}
+      i{color:rgb(238, 234, 30);}
+    }
+}
+
+//Styling the services page of the website
+.services{
+  .ourServicesSimple{
+    padding-top: 8vh;
+    padding-bottom: 2vh;
+    i{color: rgb(238, 234, 30); cursor: pointer;}
+    a{text-decoration: none; color: rgb(0, 251, 255); cursor: pointer;}
+    .bigSubheading{width: 90%;margin-left: 5%;padding: 2%;}
+  }
+
+  .ourServicesDetails{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    .service{
+      padding: 2vh;
+      .heading{padding-bottom: 2vh;}
+      
+      .details{
+        width: 90%; margin-left: 5%;
+        img{height:40vh;width:30vw; border-radius: 25px; object-fit: cover;}
+      }
+    }
+  }
+}
+
+//Styling the reviews page of the website
+.reviews{
+  .mainBody{
+    padding-top: 8vh;
+
+    .headerText{width: 80vw; margin-left: 10vw;}
+  }
 }
 
 //Styling the Contact Page of the website
@@ -315,22 +363,16 @@ form{
     .map{height:60vh;width:80vw;}
   }
 
-  .smallContactForm{
-    padding: 1%;
-
-    form{
-      margin-left:0;
-    }
-  }
 }
 
-//Styling the reviews page of the website
-.reviews{
-  .mainBody{
-    padding-top: 8vh;
+.smallContactForm{
+  padding: 1%;
 
-    .headerText{width: 80vw; margin-left: 10vw;}
+  form{
+    margin-left:0;
   }
+
+  .bigSubheading{max-width:80vw;}
 }
 
 //Styling the reviews badge
