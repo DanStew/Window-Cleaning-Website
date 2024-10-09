@@ -14,6 +14,7 @@
 #Hiding API Keys
 /src/Config
 /src/Functions/MapAPIImplementation.jsx
+/src/Functions/emailFunctions.jsx
 /src/Components/GoogleReviewsCarousel.jsx
 /src/Components/GoogleReviewsBadge.jsx
 
