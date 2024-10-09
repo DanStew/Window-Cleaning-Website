@@ -110,6 +110,7 @@ form{
     &.boldRegular{font-size: 20px;}
     &.smallSubheading{font-size: 24px;}
     &.subheading{font-size: 28px;}
+    &.mediumSubheading{font-size: 36px;}
     &.bigSubheading{font-size: 44px;}
     &.heading{font-size: 60px;}
     &.title{font-size: 68px;}
@@ -131,6 +132,7 @@ form{
     &.boldRegular{font-size: 18px;}
     &.smallSubheading{font-size: 24px;}
     &.subheading{font-size: 26px;}
+    &.mediumSubheading{font-size: 32px;}
     &.bigSubheading{font-size: 38px;}
     &.heading{font-size: 56px;}
     &.title{font-size: 64px;}
@@ -153,6 +155,7 @@ form{
     &.boldRegular{font-size: 12px;}
     &.smallSubheading{font-size: 16px;}
     &.subheading{font-size: 20px;}
+    &.mediumSubheading{font-size: 28px;}
     &.bigSubheading{font-size: 32px;}
     &.heading{font-size: 46px;}
     &.title{font-size: 56px;}
@@ -175,6 +178,7 @@ form{
     &.boldRegular{font-size: 10px;}
     &.smallSubheading{font-size: 14px;}
     &.subheading{font-size: 18px;}
+    &.mediumSubheading{font-size: 24px;}
     &.bigSubheading{font-size: 28px;}
     &.heading{font-size: 40px;}
     &.title{font-size: 50px;}
@@ -197,6 +201,7 @@ form{
     &.boldRegular{font-size: 10px;}
     &.smallSubheading{font-size: 14px;}
     &.subheading{font-size: 18px;}
+    &.mediumSubheading{font-size: 22px;}
     &.bigSubheading{font-size: 26px;}
     &.heading{font-size: 36px;}
     &.title{font-size: 46px;}
@@ -318,6 +323,7 @@ form{
     .service{
       padding: 2vh;
       .heading{padding-bottom: 2vh;}
+      .mediumSubheading{width: 50vw; margin-left: 5vw;}
       
       .details{
         width: 90%; margin-left: 5%;
