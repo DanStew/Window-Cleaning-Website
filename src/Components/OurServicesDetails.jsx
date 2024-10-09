@@ -6,9 +6,9 @@ import gutterCleaningImage from "../Images/gutterCleaningImg1.jpg"
 function OurServicesDetails({order}){
     return(
         <div id="DomesticWindows" className={"ourServicesDetails " + order}>
-            <p className="title">Learn more about our Services</p>
+            <p className="title flexItems">Learn more about our Services</p>
             <div className="service flexItems">
-                <p className="heading">Domestic Window Cleaning</p>
+                <p className="heading flexItems">Domestic Window Cleaning</p>
                 <div className="details flexDisplay widthGap">
                     <img src={domesticImage} alt="Domestic Window Cleaning Image" />
                     <div className="serviceText">
@@ -18,7 +18,7 @@ function OurServicesDetails({order}){
                 <div id="CommercialWindows"></div>
             </div>
             <div className="service flexItems">
-                <p className="heading">Commercial Window Cleaning</p>
+                <p className="heading flexItems">Commercial Window Cleaning</p>
                 <div className="details flexDisplay widthGap">
                     <img src={commercialImage} alt="Commercial Window Cleaning Image" />
                     <div className="serviceText">
@@ -28,7 +28,7 @@ function OurServicesDetails({order}){
                 <div id="ConservatoryRoofs"></div>
             </div>
             <div className="service flexItems">
-                <p className="heading">Conservatory Roof Cleaning</p>
+                <p className="heading flexItems">Conservatory Roof Cleaning</p>
                 <div className="details flexDisplay widthGap">
                     <img src={conservatoryRoofImage} alt="Conversatory Roof Cleaning Image" />
                     <div className="serviceText">
@@ -38,7 +38,7 @@ function OurServicesDetails({order}){
                 <div id="GutterCleaning"></div>
             </div>
             <div className="service flexItems">
-                <p className="heading">Gutter Cleaning</p>
+                <p className="heading flexItems">Gutter Cleaning</p>
                 <div className="details flexDisplay widthGap">
                     <img src={gutterCleaningImage} alt="Gutter Cleaning Image" />
                     <div className="serviceText">

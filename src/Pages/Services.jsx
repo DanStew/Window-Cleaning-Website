@@ -5,6 +5,7 @@ import ContactForm from "../Components/ContactForm"
 import OpenContactFormButton from "../Components/OpenContactButton"
 import OurServicesSimple from "../Components/OurServicesSimple"
 import OurServicesDetails from "../Components/OurServicesDetails"
+import Footer from "../Components/Footer"
 
 function Services(){
     return(
@@ -18,6 +19,7 @@ function Services(){
                     <OurServicesSimple order="odd" />
                     <OurServicesDetails order="even" />
                     <OpenContactFormButton />
+                    <Footer />
                 </div>
                 {/* Implementing the contact form onto the website */}
                 <ContactForm/>

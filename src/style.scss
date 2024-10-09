@@ -6,7 +6,6 @@ body {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   overflow-y: scroll;
   height: 100%;
   background-color: rgb(166, 166, 166);
@@ -94,6 +93,8 @@ form{
   width: 100%;
   height: 100%;
   flex: 1 1;
+
+  p{width:90%;margin-left: 5%;}
 }
 
 //Class used to hide elements when they are not active
@@ -108,18 +109,28 @@ form{
     //Classes to determine the font size and weight of fonts
     &.regular{font-size: 20px;font-weight: 500;}
     &.boldRegular{font-size: 20px;}
-    &.smallSubheading{font-size: 24px;}
+    &.smallSubheading{font-size: 20px;}
     &.subheading{font-size: 28px;}
-    &.mediumSubheading{font-size: 36px;}
-    &.bigSubheading{font-size: 44px;}
-    &.heading{font-size: 60px;}
-    &.title{font-size: 68px;}
+    &.mediumSubheading{font-size: 32px;}
+    &.bigSubheading{font-size: 38px;}
+    &.heading{font-size: 56px;}
+    &.title{font-size: 62px;}
   }
 
   //Styling the inputs font size
-  input{font-size: 32px;}
+  input{font-size: 28px;}
   textarea{font-size: 24px;}
-  ::placeholder{font-size: 32px;}
+  ::placeholder{font-size: 28px;}
+
+  //Deciding what banner is displayed
+  .smallHeader{display: none;}
+
+  //Styling the size of the contact button
+  .contactButton{
+    height: 5vw;
+    width: 5vw;
+    span{font-size: 3vw; font-weight: 700;}
+  }
 }
 
 @media screen and (min-width : 1080px) and (max-width : 1400px) {
@@ -130,18 +141,28 @@ form{
     //Classes to determine the font size and weight of fonts
     &.regular{font-size: 18px;font-weight: 500;}
     &.boldRegular{font-size: 18px;}
-    &.smallSubheading{font-size: 24px;}
+    &.smallSubheading{font-size: 20px;}
     &.subheading{font-size: 26px;}
     &.mediumSubheading{font-size: 32px;}
-    &.bigSubheading{font-size: 38px;}
-    &.heading{font-size: 56px;}
-    &.title{font-size: 64px;}
+    &.bigSubheading{font-size: 34px;}
+    &.heading{font-size: 50px;}
+    &.title{font-size: 56px;}
   }
 
   //Styling the inputs font size
-  input{font-size: 30px;}
+  input{font-size: 26px;}
   textarea{font-size: 22px;}
-  ::placeholder{font-size: 30px;}
+  ::placeholder{font-size: 26px;}
+
+  //Deciding what banner is displayed
+  .smallHeader{display: none;}
+
+  //Styling the size of the contact button
+  .contactButton{
+    height: 5vw;
+    width: 5vw;
+    span{font-size: 3vw; font-weight: 700;}
+  }
 }
 
 @media screen and (min-width: 800px) and (max-width : 1080px) {
@@ -155,16 +176,26 @@ form{
     &.boldRegular{font-size: 12px;}
     &.smallSubheading{font-size: 16px;}
     &.subheading{font-size: 20px;}
-    &.mediumSubheading{font-size: 28px;}
-    &.bigSubheading{font-size: 32px;}
-    &.heading{font-size: 46px;}
-    &.title{font-size: 56px;}
+    &.mediumSubheading{font-size: 24px;}
+    &.bigSubheading{font-size: 28px;}
+    &.heading{font-size: 44px;}
+    &.title{font-size: 50px;}
   }
   
   //Styling the inputs font size
-  input{font-size: 28px;}
-  textarea{font-size: 20px;}
-  ::placeholder{font-size: 28px;}
+  input{font-size: 20px;}
+  textarea{font-size: 18px;}
+  ::placeholder{font-size: 20px;}
+
+  //Deciding what banner is displayed
+  .smallHeader{display: none;}
+
+  //Styling the size of the contact button
+  .contactButton{
+    height: 8vw;
+    width: 8vw;
+    span{font-size: 5vw; font-weight: 700;}
+  }
 }
 
 @media screen and (min-width:560px) and (max-width : 800px) {
@@ -178,16 +209,29 @@ form{
     &.boldRegular{font-size: 10px;}
     &.smallSubheading{font-size: 14px;}
     &.subheading{font-size: 18px;}
-    &.mediumSubheading{font-size: 24px;}
-    &.bigSubheading{font-size: 28px;}
-    &.heading{font-size: 40px;}
-    &.title{font-size: 50px;}
+    &.mediumSubheading{font-size: 22px;}
+    &.bigSubheading{font-size: 24px;}
+    &.heading{font-size: 38px;}
+    &.title{font-size: 46px;}
   }
 
   //Styling the inputs font size
-  input{font-size: 26px;}
-  textarea{font-size: 18px;}
-  ::placeholder{font-size: 26px;}
+  input{font-size: 18px;}
+  textarea{font-size: 16px;}
+  ::placeholder{font-size: 18px;}
+
+  //Deciding what banner is displayed
+  .longHeader{display: none;}
+
+  //Deciding whether the footer is vertical or not
+  .Footer{flex-direction: column;}
+
+  //Styling the size of the contact button
+  .contactButton{
+    height: 10vw;
+    width: 10vw;
+    span{font-size: 6vw; font-weight: 700;}
+  }
 }
 
 @media screen and (max-width:560px){
@@ -200,17 +244,30 @@ form{
     &.regular{font-size: 10px;font-weight: 500;}
     &.boldRegular{font-size: 10px;}
     &.smallSubheading{font-size: 14px;}
-    &.subheading{font-size: 18px;}
-    &.mediumSubheading{font-size: 22px;}
-    &.bigSubheading{font-size: 26px;}
-    &.heading{font-size: 36px;}
-    &.title{font-size: 46px;}
+    &.subheading{font-size: 16px;}
+    &.mediumSubheading{font-size: 18px;}
+    &.bigSubheading{font-size: 20px;}
+    &.heading{font-size: 32px;}
+    &.title{font-size: 40px;}
   }
 
   //Styling the inputs font size
-  input{font-size: 24px;}
-  textarea{font-size: 16px;}
-  ::placeholder{font-size: 24px;}
+  input{font-size: 16px;}
+  textarea{font-size: 14px;}
+  ::placeholder{font-size: 16px;}
+
+  //Deciding what banner is displayed
+  .longHeader{display: none;}
+
+  //Deciding whether the footer is vertical or not
+  .Footer{flex-direction: column;}
+
+  //Styling the size of the contact button
+  .contactButton{
+    height: 12vw;
+    width: 12vw;
+    span{font-size: 8vw; font-weight: 700;}
+  }
 }
 
 //Creating some styling for the background of areas
@@ -232,12 +289,14 @@ form{
 
 //Styling the navigator for the website
 .Navigator {
+  width: 100%;
   position: relative;
   top: 7vh;
   left: 0;
   z-index: 90;
   
   .navItem{
+      width: 100%;
       padding: 10px;
       cursor: pointer;
       background-color: rgb(160, 160, 160);
@@ -269,14 +328,14 @@ form{
 
             img{
                 object-fit: cover;
-                width: 100vw;
-                height: 75vh;
+                width: 100%;
+                height: 80vh;
             }
         }
 
         .welcomeContent{
             position: absolute;
-            top: 5vh;
+            top: 10vh;
             left: 0;
             z-index: 2;
             height: 80vh;
@@ -335,6 +394,7 @@ form{
 
 //Styling the reviews page of the website
 .reviews{
+  min-height: 90vh;
   .mainBody{
     padding-top: 8vh;
 
@@ -369,6 +429,16 @@ form{
     .map{height:60vh;width:80vw;}
   }
 
+}
+
+//Styling the footer of the website
+.Footer{
+  background-color: black;
+  height:100%;
+
+  p{color:white;}
+  img{border-radius:50%;object-fit: cover;cursor: pointer;height:5vh;}
+  a{text-decoration: none; cursor: pointer; color: lime;}
 }
 
 .smallContactForm{
@@ -408,8 +478,6 @@ form{
   position: fixed;
   bottom: 2vh;
   right: 1vw;
-  height: 5vw;
-  width: 5vw;
   border-radius: 50%;
   background-color: white;
   cursor: pointer;
@@ -418,7 +486,6 @@ form{
 
   &.notActive{display: none;}
   &:hover{transform: translateY(-2vh);}
-  span{font-size: 3vw; font-weight: 700;}
 }
 
 .contactForm{

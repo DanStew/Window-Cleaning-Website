@@ -5,6 +5,7 @@ import ContactForm from "../Components/ContactForm"
 import OpenContactFormButton from "../Components/OpenContactButton"
 import ContactUs from "../Components/ContactUs"
 import SmallContactForm from "../Components/SmallContactForm"
+import Footer from "../Components/Footer"
 
 function Contact(){
     return(
@@ -18,6 +19,7 @@ function Contact(){
                     <ContactUs order="odd"/>
                     <SmallContactForm order="even" />
                     <OpenContactFormButton />
+                    <Footer />
                 </div>
                 {/* Implementing the contact form onto the website */}
                 <ContactForm/>

@@ -4,13 +4,13 @@ import MapAPIImplementation from "../Functions/MapAPIImplementation"
 function ContactUs({order}){
     return(
         <div className={"contactUs flexDisplay column heightGap " + order}>
-            <p className="title">Contact Us</p>
+            <p className="title flexItems">Contact Us</p>
             <p className="bigSubheading mainText">If you live in Farham or Surrounding areas and have any questions about our services or would like a Free, No obligation quotation, please contact us using the information or form below : </p>
             <MapAPIImplementation className="map"/>
             <div className="contactInfo flexItems flexDisplay column heightGap">
                 <div className="contactRow flexDisplay flexItems">
                     <p className="heading flexItems">Email : </p>
-                    <p className="heading flexItems">w.stewart76@btinternet.com</p>
+                    <p className="bigSubheading flexItems">w.stewart76@btinternet.com</p>
                 </div>
                 <div className="contactRow flexDisplay flexItems">
                     <p className="heading flexItems">Phone Number : </p>

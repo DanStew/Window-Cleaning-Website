@@ -5,6 +5,7 @@ import ContactForm from "../Components/ContactForm"
 import OpenContactFormButton from "../Components/OpenContactButton"
 import GoogleReviewsCarousel from "../Components/GoogleReviewsCarousel"
 import GoogleReviewsBadge from "../Components/GoogleReviewsBadge"
+import Footer from "../Components/Footer"
 
 function Reviews(){
     return(
@@ -22,6 +23,7 @@ function Reviews(){
                     <GoogleReviewsBadge />
                     <GoogleReviewsCarousel className="flexItems"/>
                     <OpenContactFormButton />
+                    <Footer />
                 </div>
                 {/* Implementing the contact form onto the website */}
                 <ContactForm />

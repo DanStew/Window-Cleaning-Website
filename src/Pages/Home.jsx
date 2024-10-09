@@ -7,6 +7,7 @@ import OpenContactFormButton from "../Components/OpenContactButton"
 import WhatIsUs from "../Components/WhatIsUs"
 import CustomerReviews from "../Components/CustomerReviews"
 import SmallContactForm from "../Components/SmallContactForm"
+import Footer from "../Components/Footer"
 
 function Home(){
 
@@ -22,6 +23,7 @@ function Home(){
                 <CustomerReviews order="even" />
                 <SmallContactForm order="odd" />
                 <OpenContactFormButton />
+                <Footer />
             </div>
             {/* Implementing the contact form onto the website */}
             <ContactForm/>

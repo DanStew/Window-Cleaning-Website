@@ -26,7 +26,7 @@ function ContactForm(){
         <div id="contactForm" className="contactForm notActive flexItems">
             <div className="contactFormHeader flexItems flexDisplay noGap">
                 <div className="flexItems"></div>
-                <p className="title flexItems">Contact Form</p>
+                <p className="heading flexItems">Contact Form</p>
                 <div className="closeButton flexItems"><span onClick={closeContactForm} class="material-symbols-outlined">close</span></div>
             </div>
             <div className="contactFormMessage">

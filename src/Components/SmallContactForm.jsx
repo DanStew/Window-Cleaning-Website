@@ -23,7 +23,7 @@ function SmallContactForm({order}){
 
     return(
         <div className={"smallContactForm flexDisplay column heightGap " + order}>
-            <p className="heading">Contact Form</p>
+            <p className="heading flexItems">Contact Form</p>
             <p className="bigSubheading">Please Contact us below if you have any queries about the services we provide or would like a Free, No Obligation Quote</p>
             <form className="flexDisplay column gap" action="#">
                 <input type="text" placeholder="Enter your Name..." value={name} onChange={(e) => setName(e.target.value)}/>
