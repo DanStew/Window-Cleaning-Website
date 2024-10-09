@@ -14,7 +14,7 @@ function ContactUs({order}){
                 </div>
                 <div className="contactRow flexDisplay flexItems">
                     <p className="heading flexItems">Phone Number : </p>
-                    <p className="heading flexItems">01252722665</p>
+                    <p className="heading flexItems">01252726833</p>
                 </div>
                 <button onClick={() => window.open("https://www.facebook.com/profile.php?id=100054523986920")} className="flexDisplay smallGap"><img src={facebookLogo} alt="Facebook Logo" /><p className="bigSubheading">View our Facebook</p></button>
             </div>

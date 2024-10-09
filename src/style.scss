@@ -131,6 +131,11 @@ form{
     width: 5vw;
     span{font-size: 3vw; font-weight: 700;}
   }
+
+  //Styling the size of the google image in the reviews badge
+  .reviewsBadgeBottom{
+    img{height:3vw;}
+  }
 }
 
 @media screen and (min-width : 1080px) and (max-width : 1400px) {
@@ -162,6 +167,11 @@ form{
     height: 5vw;
     width: 5vw;
     span{font-size: 3vw; font-weight: 700;}
+  }
+
+  //Styling the size of the google image in the reviews badge
+  .reviewsBadgeBottom{
+    img{height:5vw;}
   }
 }
 
@@ -195,6 +205,11 @@ form{
     height: 8vw;
     width: 8vw;
     span{font-size: 5vw; font-weight: 700;}
+  }
+
+  //Styling the size of the google image in the reviews badge
+  .reviewsBadgeBottom{
+    img{height:6vw;}
   }
 }
 
@@ -232,6 +247,11 @@ form{
     width: 10vw;
     span{font-size: 6vw; font-weight: 700;}
   }
+
+  //Styling the size of the google image in the reviews badge
+  .reviewsBadgeBottom{
+    img{height:7vw;}
+  }
 }
 
 @media screen and (max-width:560px){
@@ -267,6 +287,11 @@ form{
     height: 12vw;
     width: 12vw;
     span{font-size: 8vw; font-weight: 700;}
+  }
+
+  //Styling the size of the google image in the reviews badge
+  .reviewsBadgeBottom{
+    img{height:8vw;}
   }
 }
 
@@ -467,7 +492,6 @@ form{
 
     .reviewsBadgeBottom{
       padding: 5px;
-      img{height:3vw;}
       a{text-decoration: none; color: blue;}
     }
   }
