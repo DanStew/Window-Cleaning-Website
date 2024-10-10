@@ -1,6 +1,6 @@
 {
   "short_name": "Farnham and District Window Cleaning",
-  "name": "Farnhama and District Window Cleaning Services | Operating in Farnham, Aldershot, Alton and Surrounding Areas",
+  "name": "Farnham and District Window Cleaning Services | Operating in Farnham, Aldershot, Alton and Surrounding Areas",
   "icons": [
     {
       "src": "smallIcon.ico",
@@ -9,12 +9,12 @@
     },
     {
       "src": "largeLogo192.jpg",
-      "type": "image/png",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
       "src": "largeLogo512.jpg",
-      "type": "image/png",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],

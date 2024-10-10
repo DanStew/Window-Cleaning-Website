@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-y: scroll;
+  overflow-x: hidden;
   height: 100%;
   background-color: rgb(166, 166, 166);
 }
@@ -136,6 +137,14 @@ form{
   .reviewsBadgeBottom{
     img{height:3vw;}
   }
+
+  //Styling the details image
+  .detailsImg{height:40vh;width:30vw; border-radius: 25px; object-fit: cover;}
+
+  //Styling the service text, so it grows on smaller screens
+  .service{
+    .mediumSubheading{width: 50vw; margin-left: 5vw;}
+  }
 }
 
 @media screen and (min-width : 1080px) and (max-width : 1400px) {
@@ -172,6 +181,14 @@ form{
   //Styling the size of the google image in the reviews badge
   .reviewsBadgeBottom{
     img{height:5vw;}
+  }
+
+  //Styling the details image
+  .detailsImg{height:40vh;width:30vw; border-radius: 25px; object-fit: cover;}
+
+  //Styling the service text, so it grows on smaller screens
+  .service{
+    .mediumSubheading{width: 50vw; margin-left: 5vw;}
   }
 }
 
@@ -210,6 +227,14 @@ form{
   //Styling the size of the google image in the reviews badge
   .reviewsBadgeBottom{
     img{height:6vw;}
+  }
+
+  //Styling the details image
+  .detailsImg{height:40vh;width:30vw; border-radius: 25px; object-fit: cover;}
+
+  //Styling the service text, so it grows on smaller screens
+  .service{
+    .mediumSubheading{width: 50vw; margin-left: 5vw;}
   }
 }
 
@@ -251,6 +276,17 @@ form{
   //Styling the size of the google image in the reviews badge
   .reviewsBadgeBottom{
     img{height:7vw;}
+    .starRating{flex-direction: row; .starsDisplay{flex-direction: row;}}
+  }
+
+  .flexDisplay{flex-direction: column;}
+
+  //Styling the details image
+  .detailsImg{height:20vh;width:60vw; border-radius: 25px; object-fit: cover; margin-bottom: 2vh;}
+
+  //Styling the service text, so it grows on smaller screens
+  .service{
+    .mediumSubheading{width: 80vw; margin-left: -5vw;}
   }
 }
 
@@ -292,6 +328,19 @@ form{
   //Styling the size of the google image in the reviews badge
   .reviewsBadgeBottom{
     img{height:8vw;}
+    .starRating{flex-direction: row; .starsDisplay{flex-direction: row;}}
+  }
+
+  .welcomeContent{padding-top: 3vh;}
+
+  .flexDisplay{flex-direction: column;}
+
+  //Styling the details image
+  .detailsImg{height:20vh;width:60vw; border-radius: 25px; object-fit: cover; margin-bottom: 2vh;}
+
+  //Styling the service text, so it grows on smaller screens
+  .service{
+    .mediumSubheading{width: 80vw; margin-left: -5vw;}
   }
 }
 
@@ -310,6 +359,8 @@ form{
   background-color: rgb(30, 30, 30);
   padding: 10px;
   z-index: 100;
+
+  .TopBannerBottom{flex-direction: row;}
 }
 
 //Styling the navigator for the website
@@ -407,11 +458,9 @@ form{
     .service{
       padding: 2vh;
       .heading{padding-bottom: 2vh;}
-      .mediumSubheading{width: 50vw; margin-left: 5vw;}
       
       .details{
         width: 90%; margin-left: 5%;
-        img{height:40vh;width:30vw; border-radius: 25px; object-fit: cover;}
       }
     }
   }
@@ -460,6 +509,10 @@ form{
 .Footer{
   background-color: black;
   height:100%;
+
+  .footerBottom{
+    flex-direction: row;
+  }
 
   p{color:white;}
   img{border-radius:50%;object-fit: cover;cursor: pointer;height:5vh;}
